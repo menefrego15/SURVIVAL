@@ -1,0 +1,78 @@
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: linear-gradient(166.21deg, #2D00F7 -41.12%, #B300F2 90.84%);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    border-radius: 90px;
+}
+
+
+input{
+    height: 40px;
+    background-color: white;
+    border-style: none;
+    border-radius: 20px;
+    text-align: center;
+    width: 200px;
+}
+
+
+
+.submit {
+    width: 170px;
+    height: 60px;
+    background-color: white;
+    border-style: none;
+    border-radius: 20px;
+    text-align: center;
+    font-weight: 800;
+    font-size: 24px;
+}
+
+.submit:hover{
+    background-color: rgb(68, 0, 255);
+}
+
+.result {
+    margin-top: 30px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.chances{
+    margin-top: 30px;
+    color: white;
+}
+
+.title {
+    color: white;
+    font-weight: 600;
+}
+
+.radioinput {
+    color: white;
+    text-transform: uppercase;
+
+}
+
+::placeholder{
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+:focus{outline: none;}
+
+.col-3{float: left; width: 27.33%; margin: 40px 3%; position: relative;} /* necessary to give position: relative to parent. */
+input[type="text"]{font: 15px/24px "Lato", Arial, sans-serif; color: #333; width: 100%; box-sizing: border-box; letter-spacing: 1px;}
+
+.effect-14 ~ .focus-bg:before,
+.effect-14 ~ .focus-bg:after{content: ""; position: absolute; left: 0; top: 0; width: 0; height: 0; background-color: #d32525; transition: 0.3s; z-index: -1;}
+.effect-14:focus ~ .focus-bg:before{transition: 0.3s; width: 50%; height: 100%;}
+.effect-14 ~ .focus-bg:after{left: auto; right: 0; top: auto; bottom: 0;}
+.effect-14:focus ~ .focus-bg:after{transition: 0.3s; width: 50%; height: 100%;}
