@@ -51,6 +51,7 @@ if (sports == "yes") {
 }
 
 
+
 //age du comnbattant
 
 var age = (-(age*age)+(50*age))/6.25;
@@ -66,12 +67,13 @@ var quo = ((100*sexe)+(80*weight)+(60*size)+(40*sports)+(20*age))/300;
 
 var h = 0;
 var h = ((quo*100)-5000)/45;
+var r = Math.ceil(h);
 
 if (quo<=0) {
     document.getElementById("resultat").innerHTML = 0;
 }else{
 
-document.getElementById("resultat").innerHTML = h;
+document.getElementById("resultat").innerHTML = r + "%";
 
 }
 
