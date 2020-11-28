@@ -61,7 +61,7 @@ var size = 12.5*(math.log(size-120));
 var weight = (-(weight*weight)+(160*weight))/64;
 
 var quo = 0;
-var quo = (((100*sexe)+(80*weight)+(60*size)+(40*sports)+(20*age))*1.8)/300;
+var quo = (((100*sexe)+(80*weight)+(60*size)+(40*sports)+(20*age))*1.5)/300;
 
 
 
