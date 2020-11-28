@@ -1,23 +1,37 @@
-
 body{
     margin: 0;
     padding: 0;
 }
 
 body{
-    background: #ffffff;
+    background-color: rgb(36, 36, 36);
     background-attachment: fixed;
     background-repeat: no-repeat;
     border-radius: 90px;
     font-family: 'Montserrat', sans-serif;
 }
 
+.pagetitle{
+  font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 28px;
+line-height: 20.5%;
+color: white;
+/* or 10px */
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.1em;
+}
 
 input[type=number]{
     width: 250px;
     height: 40px;
-    background-color: white;
-    border-bottom: solid 2px rgb(32, 32, 32);
+    color: white;
+    background-color:transparent;
+    border-bottom: solid 2px rgb(250, 250, 250);
     border-top: none;
     border-left: none;
     border-right: none;
@@ -93,9 +107,29 @@ input[type="radio"].demo2 {
     background-color: #b1daec;
 }
 
+
+.linkselector {
+  color: white;
+  text-decoration: none;
+  background-color: #7dcef3;
+  width: 140px;
+  text-align: center;
+  height: 50px;
+  padding-top: 13px;
+  border-radius: 13px;
+  margin-top: 30%;
+}
+
+.linkselector:hover {
+  text-decoration: none;
+  color: black;
+  background-color: white;
+}
+
+
 .result {
-    margin-top: 30px;
-    color: rgba(0, 0, 0, 0.486);
+    margin-top: 10px;
+    color: rgb(255, 255, 255);
     text-transform: uppercase;
 }
 
@@ -103,7 +137,7 @@ input[type="radio"].demo2 {
 
 
 ::placeholder{
-    color: rgba(0, 0, 0, 0.247);
+    color: rgba(255, 255, 255, 0.247);
     font-weight: bold;
     text-transform: uppercase;
 }
@@ -118,3 +152,4 @@ input[type="text"]{font: 15px/24px "Lato", Arial, sans-serif; color: #333; width
 .effect-14:focus ~ .focus-bg:before{transition: 0.3s; width: 50%; height: 100%;}
 .effect-14 ~ .focus-bg:after{left: auto; right: 0; top: auto; bottom: 0;}
 .effect-14:focus ~ .focus-bg:after{transition: 0.3s; width: 50%; height: 100%;}
+

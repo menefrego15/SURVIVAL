@@ -57,23 +57,32 @@ if (sports == "yes") {
 var age = (-(age*age)+(50*age))/6.25;
 
 
-
 var size = 12.5*(math.log(size-120));
 
 var weight = (-(weight*weight)+(160*weight))/64;
 
 var quo = 0;
-var quo = ((100*sexe)+(80*weight)+(60*size)+(40*sports)+(20*age))/300;
+var quo = (((100*sexe)+(80*weight)+(60*size)+(40*sports)+(20*age))*0.650)/300;
+
+
 
 var h = 0;
 var h = ((quo*100)-5000)/45;
+
+
+
 var r = Math.ceil(h);
 
-if (quo<=0) {
-    document.getElementById("resultat").innerHTML = 0;
-}else{
 
-document.getElementById("resultat").innerHTML = r + "%";
+if (r<=0) {
+    document.getElementById("resultat").innerHTML = "tu as 0% de chances de tenir 30s contre SPIDERMAN";
+}else if (r>=100) {
+    document.getElementById("resultat").innerHTML = "tu as 100% de chances de tenir 30s contre spiderman";
+}
+
+else{
+
+document.getElementById("resultat").innerHTML = "tu as " + r + "% de chances de tenir 30s contre SpiderMan";
 
 }
 
