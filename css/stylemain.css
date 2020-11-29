@@ -168,7 +168,7 @@ input[type="text"]{font: 15px/24px "Lato", Arial, sans-serif; color: #333; width
 
 .popup .content {
   position:absolute;
-  top:50%;
+  top:80%;
   left:50%;
   transform:translate(-50%,-50%) scale(0);
   background:rgb(36, 36, 36);
