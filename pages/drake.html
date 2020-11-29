@@ -84,16 +84,19 @@
                 <img src="../img/result.png" style="width: 380px;">
             </div>
         </div>
-        <div class="row">
-            <div class="col-12 d-flex justify-content-center mt-3">
-                <p class="result" id="resultat"></p>
+        <div class="popup" id="popup-1">
+            <div class="overlay"></div>
+            <div class="content">
+              <div class="close-btn" onclick="togglePopup()">&times;</div>
+              <h1>resultat</h1>
+              <p class="result" id="resultat"></p>
             </div>
+          </div>
+          <div class="row">
+          <div class="col-12 d-flex justify-content-center">
+          <button class="submit" id="submit" onclick="togglePopup()">SUBMIT</button>
         </div>
-
-        <div class="row">
-            <div class="col-12 d-flex justify-content-center mt-3">
-                <button class="submit" type="button" id="submit"> SUBMIT</button>
-            </div>
+    </div>
         </div>
 
 

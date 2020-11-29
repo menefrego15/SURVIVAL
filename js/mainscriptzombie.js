@@ -89,3 +89,6 @@ document.getElementById("resultat").innerHTML = "tu as " + r + "% de chances de 
 
 }
 
+function togglePopup(){
+    document.getElementById("popup-1").classList.toggle("active");
+  }
